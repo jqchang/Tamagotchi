@@ -1,0 +1,17 @@
+Feed function:
+    Is berry available (> 0)
+        Yes:
+            Subtract from current count
+            Set last fed time to Date()
+            Update DB
+        No:
+            Error message
+
+Play function:
+    Is toy available (> 0)
+        Yes:
+            Subtract from current count
+            Set last play time to Date()
+            Update DB
+        No:
+            Error message
